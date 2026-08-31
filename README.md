@@ -33,3 +33,23 @@ This analytics engine integrates I&M Bank's **transaction ledger, customer maste
 | **Branches** | 6 major branches | Nyali, Kisumu, Nairobi CBD, Westlands, Mombasa CBD, Nakuru |
 
 ---
+## Key Performance Indicators
+
+### **Transaction Metrics**
+- **Total Transaction Volume:** KES 245.8M (5,019 txns)
+- **Success Rate:** 87.4% (4,385 completed; 634 failed)
+- **Avg Transaction Size:** KES 48,981
+- **Median Transaction Size:** KES 36,790
+- **Failed Transaction Rate:** 12.6%
+
+### **Branch Performance (Ranked by Volume)**
+| Rank | Branch | Volume | Txn Count | Avg Size | Success Rate |
+|------|--------|--------|-----------|----------|--------------|
+| 1 | Nairobi CBD | KES 67.2M | 1,211 | KES 55.5K | 92.1% |
+| 2 | Nyali | KES 41.8M | 821 | KES 50.9K | 88.9% |
+| 3 | Westlands | KES 40.6M | 714 | KES 56.9K | 87.1% |
+| 4 | Kisumu | KES 36.8M | 755 | KES 48.7K | 86.4% |
+| 5 | Mombasa CBD | KES 34.0M | 635 | KES 53.5K | 89.3% |
+| 6 | Nakuru | KES 25.4M | 183 | KES 138.8K | 81.2% |
+
+**Insight:** Nakuru has **lowest success rate (81.2%)**; likely due to channel/operational constraints. Recommend process audit.
