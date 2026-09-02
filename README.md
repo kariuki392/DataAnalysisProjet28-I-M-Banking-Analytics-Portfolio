@@ -53,3 +53,36 @@ This analytics engine integrates I&M Bank's **transaction ledger, customer maste
 | 6 | Nakuru | KES 25.4M | 183 | KES 138.8K | 81.2% |
 
 **Insight:** Nakuru has **lowest success rate (81.2%)**; likely due to channel/operational constraints. Recommend process audit.
+
+### **Channel Performance**
+| Channel | Volume | Txn Count | Success Rate | Avg Size |
+|---------|--------|-----------|--------------|----------|
+| **Agent** | KES 112.3M | 2,187 | 87.9% | KES 51.4K |
+| **Branch** | KES 72.8M | 1,204 | 88.2% | KES 60.5K |
+| **Mobile App** | KES 38.2M | 965 | 85.6% | KES 39.6K |
+| **ATM** | KES 15.6M | 423 | 86.5% | KES 36.9K |
+| **USSD** | KES 6.9M | 240 | 82.1% | KES 28.8K |
+
+**Opportunity:** Mobile App shows **lower success rate (85.6%)**; consider UX/backend optimization to reduce friction.
+
+---
+
+### **Customer Portfolio**
+- **Total Customers:** 600
+- **Active Customers:** 509 (84.8%)
+- **Inactive Customers:** 91 (15.2%)
+- **Customer LTV (Avg):** KES 408,987
+- **Customer LTV (Median):** KES 85,429
+- **Customer LTV (Top 10%):** KES 2.1M–3.2M
+
+### **Loan Portfolio**
+- **Total Loans:** 250
+- **Total Principal:** KES 528.5M
+- **Performing:** 202 loans (80.8%, KES 421M principal)
+- **Watch:** 32 loans (12.8%, KES 68M principal)
+- **Non-Performing:** 16 loans (6.4%, KES 39.5M principal)
+- **NPL Rate:** 3.2%
+- **Avg Interest Rate:** 15.5%
+- **Avg Loan Term:** 33.4 months
+
+---
