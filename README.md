@@ -1,7 +1,7 @@
 # 🏦 I&M Bank Integrated Analytics Engine
 
 > **Multi-Dimensional Customer & Portfolio Analysis**  
-> Real Interview Workbook Data | 5,019 Transactions | 600 Customers | 250 Loans | 6 Branches | Full Year 2025
+> Real Workbook Data | 5,019 Transactions | 600 Customers | 250 Loans | 6 Branches | Full Year 2025
 
 ---
 
