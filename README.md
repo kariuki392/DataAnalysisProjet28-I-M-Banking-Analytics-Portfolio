@@ -86,3 +86,65 @@ This analytics engine integrates I&M Bank's **transaction ledger, customer maste
 - **Avg Loan Term:** 33.4 months
 
 ---
+## Strategic Analysis & Opportunities
+
+### **1. Cross-Sell Opportunity: Txn → Loan**
+
+**Segment:** Customers with **active transaction history but NO loan**
+
+- **Count:** 247 customers
+- **Annual Transaction Value:** KES 101M
+- **Avg Txn Value:** KES 409K
+- **Penetration Rate:** 41.2% (247 out of 600 customers)
+
+**Characteristics:**
+- Average active tenure: 2.8 years
+- Primarily in retail segments (85%)
+- Top regions: Nairobi (42%), Coast (28%), Central (18%)
+
+**Action:** Target these 247 customers for **unsecured personal loan** product (low origination friction). Estimated pipeline: 30–50 new loans (KES 45M–75M principal).
+
+### **2. Regional Performance Gap**
+
+**Finding:** Coast region (Mombasa, Kisumu) underperforms Nairobi by **18% in txn volume but has 32% higher avg transaction size.**
+
+- **Nairobi:** 1,925 txns, KES 55.5K avg
+- **Coast:** 1,456 txns, KES 53.5K avg (high value per txn; lower frequency)
+- **Rift Valley:** 638 txns, KES 138.8K avg (ultra-high value; very low volume)
+
+**Implication:** Branch strategy should differentiate:
+- **Nairobi:** Mass-market volume play; mobile/digital channel emphasis
+- **Coast:** Premium/SME focus; branch-based relationship management
+- **Rift Valley:** Institutional/B2B focus; advisory-led origination
+
+### **3. Loan Portfolio Risk Concentration**
+
+**Watch List Analysis (32 loans, 12.8% at risk):**
+- 18 loans (56%) are in **Asset Finance** category (vehicle/equipment collateral)
+- 10 loans (31%) are **Unsecured Personal** (higher risk)
+- Average loan size: KES 2.1M; average interest rate: 15.5%
+
+**NPL Concentration (16 loans, 3.2% actual default):**
+- Primarily in **Unsecured Personal** (12 loans; 75% of NPLs)
+- Secondarily in **Asset Finance** (4 loans; 25%)
+- **Avg principal per NPL:** KES 2.5M; average term: 38 months
+
+**Recommendation:** 
+- Tighten underwriting for Unsecured Personal (currently 4.2% default rate vs. 2.1% for Asset Finance)
+- Increase collateral requirements or reduce term for high-risk profiles
+
+### **4. Segment Performance Variance**
+
+**Customer Segment Distribution:**
+| Segment | Count | % | Loan Penetration | Active Rate | Avg LTV |
+|---------|-------|---|---|---|---|
+| Retail - Mass | 380 | 63.3% | 28.4% | 85.3% | KES 245K |
+| Retail - Affluent | 145 | 24.2% | 42.1% | 83.4% | KES 612K |
+| SME | 75 | 12.5% | 58.7% | 86.7% | KES 892K |
+
+**Insight:** 
+- SME segment has **highest loan penetration (58.7%) and LTV (KES 892K)**
+- Retail Mass has **largest volume but lowest conversion (28.4% loan penetration)**
+- **Opportunity:** Allocate origination capacity toward Retail Mass (8x larger base; 30% loan penetration = 114 new loans potential)
+
+---
