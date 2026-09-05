@@ -148,3 +148,45 @@ This analytics engine integrates I&M Bank's **transaction ledger, customer maste
 - **Opportunity:** Allocate origination capacity toward Retail Mass (8x larger base; 30% loan penetration = 114 new loans potential)
 
 ---
+
+## Dashboard Panels (6 Total)
+
+### **Panel 1: Branch Performance Dashboard (4-quadrant)**
+- 1A: Transaction volume by branch (KES 25.4M–67.2M range)
+- 1B: Transaction frequency by branch (183–1,211 txns)
+- 1C: Success rate by branch (81.2%–92.1%)
+- 1D: Avg transaction size by branch (KES 48.7K–138.8K)
+
+**Key Visual:** Nairobi CBD dominates volume (27% of portfolio), while Nakuru shows lowest efficiency.
+
+---
+
+### **Panel 2: Channel Analytics Dashboard (4-quadrant)**
+- 2A: Channel mix by value (Agent 46%, Branch 30%, Mobile 16%, ATM 6%, USSD 3%)
+- 2B: Transaction frequency by channel (Agent 2,187, Branch 1,204, Mobile 965, ATM 423, USSD 240)
+- 2C: Success rate by channel (Agent 87.9%, Branch 88.2%, Mobile 85.6%, ATM 86.5%, USSD 82.1%)
+- 2D: Avg txn size by channel (Branch KES 60.5K, Nakuru KES 138.8K, Agent KES 51.4K, etc.)
+
+**Key Visual:** Agent channel dominates; Mobile App shows friction (85.6% vs. 87% portfolio avg).
+
+---
+
+### **Panel 3: Customer Segmentation Dashboard (4-quadrant)**
+- 3A: Customer distribution by segment (Retail Mass 63.3%, Retail Affluent 24.2%, SME 12.5%)
+- 3B: Activation rate by segment (Retail Mass 85.3%, Retail Affluent 83.4%, SME 86.7%)
+- 3C: Avg customer LTV by segment (SME KES 892K, Retail Affluent KES 612K, Retail Mass KES 245K)
+- 3D: Loan penetration by segment (SME 58.7%, Retail Affluent 42.1%, Retail Mass 28.4%)
+
+**Key Visual:** SME segment punches above weight; Retail Mass shows growth headroom.
+
+---
+
+### **Panel 4: Loan Portfolio Risk Dashboard (4-quadrant)**
+- 4A: Loan status pie (Performing 80.8%, Watch 12.8%, Non-Performing 6.4%)
+- 4B: NPL rate by loan type (Unsecured Personal 4.2%, Asset Finance 2.1%, etc.)
+- 4C: Interest rate by status (Performing 15.4%, Watch 15.7%, NPL 15.9%)
+- 4D: Principal by status (Performing KES 421M, Watch KES 68M, NPL KES 39.5M)
+
+**Key Visual:** NPL concentration in Unsecured Personal; collateral products perform better.
+
+---
