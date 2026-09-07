@@ -190,3 +190,13 @@ This analytics engine integrates I&M Bank's **transaction ledger, customer maste
 **Key Visual:** NPL concentration in Unsecured Personal; collateral products perform better.
 
 ---
+
+---### **Panel 5: Monthly Trends Dashboard (4-quadrant)**
+- 5A: Monthly transaction volume trend (KES 15M–25M range; seasonal patterns visible)
+- 5B: Monthly transaction count (350–450 txns/month; stable frequency)
+- 5C: Monthly success rate trend (82%–91% range; Q4 spike noted)
+- 5D: Monthly loan disbursement (KES 30M–60M/month; front-loaded in H1)
+
+**Key Visual:** Loan disbursement front-loaded (H1 > H2); transaction volume relatively stable.
+
+---
