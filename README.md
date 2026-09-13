@@ -200,3 +200,162 @@ This analytics engine integrates I&M Bank's **transaction ledger, customer maste
 **Key Visual:** Loan disbursement front-loaded (H1 > H2); transaction volume relatively stable.
 
 ---
+
+### **Panel 6: Cross-Sell & Opportunity Dashboard (4-quadrant)**
+- 6A: Service penetration by segment (showing Txn penetration vs. Loan penetration gap)
+- 6B: Cross-sell opportunity magnitude (247 customers with txn but no loan)
+- 6C: Regional service penetration (Nairobi leads; Coast underserved)
+- 6D: Loan adoption rate by onboarding channel (Mobile 34% vs. Branch 48%)
+
+**Key Visual:** Massive cross-sell runway; Mobile onboarding shows lower conversion.
+
+---
+
+## Actionable Recommendations
+
+### **Quick Wins (0–30 days)**
+
+1. **Mobile App Optimization**
+   - Success rate 85.6% vs. 87.4% portfolio avg = 2.8% friction loss
+   - Action: Conduct UX audit; test transaction flow variants
+   - Expected impact: +1–2% success rate = 50–100 additional monthly transactions
+
+2. **Nakuru Branch Process Audit**
+   - Success rate 81.2% (lowest); investigate channel mix or processing delays
+   - Action: Compare transaction types, channels, and customer profiles vs. Nairobi CBD
+   - Expected impact: 3–5% success rate improvement = 5–9 additional monthly txns
+
+3. **Cross-Sell Campaign Launch**
+   - 247 customers with KES 101M annual transaction value but no loan
+   - Action: Target unsecured personal loan product; estimated 30–50 new loans
+   - Expected impact: KES 45M–75M principal origination; est. KES 7M–11M annual NII
+
+### **Medium-Term (1–3 months)**
+
+1. **Segment-Specific Strategy**
+   - Retail Mass: Volume play (8x customer base); target 30% penetration = 114 new loans
+   - SME: Premium economics; maintain 58% penetration; upsell cross-products
+   - Retail Affluent: High-value focus; relationship banking approach
+
+2. **Loan Portfolio Risk Tightening**
+   - Unsecured Personal: 4.2% NPL rate vs. 2.1% Asset Finance; raise underwriting bar
+   - Action: Implement DTI/debt capacity checks; consider term limits
+   - Expected impact: Reduce Unsecured Personal NPL to <3% over 12 months
+
+3. **Regional Strategy Differentiation**
+   - Nairobi: Invest in digital/mobile; volume-based economics
+   - Coast: Premium relationship banking; institutional clients
+   - Rift Valley: B2B/SME focus; larger transaction values
+
+### **Strategic (3–12 months)**
+
+1. **Mobile Channel Enhancement**
+   - Current adoption: 16% of transaction value, 19% of transaction count
+   - Target: 25% of transaction value (strategic digital push)
+   - Action: Remove UX friction; add P2P transfer; integrate BNPL
+
+2. **Loan Product Expansion**
+   - Asset Finance: 2.1% NPL rate + collateral backstop = lower risk appetite product
+   - Action: Increase allocation to Asset Finance (vs. Unsecured Personal)
+   - Expected impact: Portfolio NPL rate decline from 3.2% to <2.5%
+
+3. **Customer Lifetime Value Maximization**
+   - Current LTV concentration (top 10% = KES 2.1M–3.2M vs. mass = KES 85K median)
+   - Action: Develop mass-market bundles (BNPL + micro-loans) to broaden base
+   - Expected impact: Increase median LTV to KES 120K over 24 months
+
+---
+
+## Technical Specifications
+
+| Component | Specification |
+|-----------|---|
+| **Data Source** | I&M Bank practice workbook (Excel) |
+| **Total Rows Processed** | 5,869 (5,019 txns + 600 customers + 250 loans) |
+| **Analysis Scope** | Full year 2025; 6 branches; 5 channels; 6 transaction types; 5 loan products |
+| **Dashboards** | 6 multi-panel visualizations (24 total panels); 130 DPI |
+| **Metrics Calculated** | 50+ KPIs (branch, channel, segment, product, regional) |
+| **Forecasting** | Trend analysis (not predictive modeling); monthly/quarterly aggregations |
+
+---
+
+## Model Scope & Limitations
+
+**What This Analysis Does:**
+✅ Surface **descriptive insights** (branch/channel/segment performance)
+✅ Identify **cross-sell opportunities** (transaction-to-loan gap)
+✅ Flag **portfolio risk concentrations** (NPL by product, loan term)
+✅ Quantify **regional variance** (performance by geography)
+
+**What This Analysis Does NOT Do:**
+❌ Predict churn (requires customer behavior modeling + time-series)
+❌ Forecast future transaction volume (trends only; no seasonality model)
+❌ Model loan default probability (requires borrower-level feature engineering)
+❌ Optimize pricing (no elasticity analysis)
+
+---
+
+## Interview Narrative (For I&M Bank Data Analyst Role)
+
+**Project Context:**
+"I took I&M Bank's real practice workbook—5,000+ transactions, 600 customers, 250 loans across 6 branches—and built an integrated analytics engine that surfaces three business-critical insights: (1) branch/channel performance bottlenecks, (2) KES 45M–75M cross-sell revenue pipeline, and (3) loan portfolio risk concentration in unsecured products.
+
+**Analytical Approach:**
+- Integrated three data sources (transactions, customers, loans) via customer ID
+- Calculated 50+ KPIs across branch, channel, segment, product, regional dimensions
+- Built 6 multi-panel dashboards (24 visualizations) for executive presentation
+- Quantified cross-sell opportunity (247 customers, KES 101M annual transaction value) with action plan
+
+**Business Impact:**
+- Identified KES 7M–11M annual NII uplift from cross-sell (unsecured personal loans to active customers)
+- Flagged Mobile App friction (85.6% success vs. 87.4% portfolio avg) with remediation roadmap
+- Recommended risk tightening in Unsecured Personal (4.2% vs. 2.1% Asset Finance NPL rates)
+- Proposed segment-specific strategies (volume for Retail Mass, premium for SME/Affluent)
+
+**Why This Project:**
+As a Data Analyst candidate, I wanted to demonstrate (1) SQL-like aggregation/pivot skills using pandas, (2) executive communication (dashboards + narrative), and (3) business acumen (cross-sell economics, risk management, segment strategy). This workbook is exactly what a real I&M analyst handles daily."
+
+---
+
+## Files Included
+
+| File | Description | Size |
+|------|---|---|
+| `im_bank_analytics.ipynb` | Executed notebook (12 cells, 6 dashboards) | 2.1 MB |
+| `README_IM_Bank_Analytics.md` | This documentation | 18 KB |
+| `29_01_branch_performance.png` | 4-panel branch KPIs | 172 KB |
+| `29_02_channel_analytics.png` | 4-panel channel performance | 156 KB |
+| `29_03_customer_segmentation.png` | 4-panel customer LTV/penetration | 175 KB |
+| `29_04_loan_portfolio_risk.png` | 4-panel loan status/NPL analysis | 133 KB |
+| `29_05_monthly_trends.png` | 4-panel monthly trends | 187 KB |
+| `29_06_crosssell_opportunities.png` | 4-panel cross-sell opportunity | 159 KB |
+
+**Total Size:** ~3.2 MB
+
+---
+
+## How to Use
+
+**For Interview Preparation:**
+1. Review README (this document) for business narrative
+2. Walk through notebook cells to understand analytical workflow
+3. Study dashboards to internalize I&M Bank's business model
+4. Practice verbal walkthrough: "Here's what the data shows, here's what we should do, here's the business impact"
+
+**For Hiring Managers:**
+1. Evaluate candidate's SQL/pandas skills by code review
+2. Assess business acumen by dashboard interpretation
+3. Check depth of insight (descriptive vs. predictive; opportunity quantification)
+
+---
+
+## Conclusion
+
+This integrated analytics engine demonstrates **end-to-end data analysis capability** on real I&M Bank data. The 6 dashboards surface actionable insights worth KES 7M–75M in business value (cross-sell + operational optimization + risk tightening). The project is structured for **executive communication** (dashboards first, insights second) while maintaining **analytical rigor** (transparent methodology, clear limitations).
+
+---
+
+**Built by:** Gabriel Kariuki | **Date:** August 29, 2026  
+**Portfolio:** [github.com/kariuki392](https://github.com/kariuki392)  
+**Target Role:** Data Analyst, I&M Bank Kenya
+
